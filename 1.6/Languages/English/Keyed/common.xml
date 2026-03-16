@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EmergencyGravLaunch.LoadingLabel>Initializing gravship emergency launch systems...</EmergencyGravLaunch.LoadingLabel>
+  <EmergencyGravLaunch.CommandLabel>Emergency Launch</EmergencyGravLaunch.CommandLabel>
+  <EmergencyGravLaunch.RitualTitle>Emergency Gravship Launch</EmergencyGravLaunch.RitualTitle>
+  <EmergencyGravLaunch.RitualGuaranteedIncidents>Additionally, there's a {0_percentage} chance that two major incidents will occur when landing the gravship.</EmergencyGravLaunch.RitualGuaranteedIncidents>
+  <EmergencyGravLaunch.CommandDesc>Launch the gravship immediately despite cooldown.</EmergencyGravLaunch.CommandDesc>
+  <EmergencyGravLaunch.CommandWarning>This is an emergency launch. Two severe emergency landing outcomes are guaranteed.</EmergencyGravLaunch.CommandWarning>
+  <EmergencyGravLaunch.ConfirmText>Launch {GRAVSHIP} immediately despite cooldown?\n\nThis is an emergency launch. Two severe emergency landing outcomes are guaranteed.</EmergencyGravLaunch.ConfirmText>
+  <EmergencyGravLaunch.NotOnCooldown>The gravship is not on launch cooldown.</EmergencyGravLaunch.NotOnCooldown>
+  <EmergencyGravLaunch.DisabledUntilNormalLaunch>Emergency launch is disabled until this gravship completes a normal launch.</EmergencyGravLaunch.DisabledUntilNormalLaunch>
+  <EmergencyGravLaunch.OutcomeDoubleFuelExtra>Additional fuel burned after landing: {0}</EmergencyGravLaunch.OutcomeDoubleFuelExtra>
+  <EmergencyGravLaunch.OutcomeStructuralHullDamageExtra>Damaged hull structures</EmergencyGravLaunch.OutcomeStructuralHullDamageExtra>
+</LanguageData>

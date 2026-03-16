@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Emergency Gravship Launch</name>
+    <author>Sk</author>
+    <packageId>sk.emergencygravlaunch</packageId>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <description>Allows gravships to use an emergency launch during cooldown, trading safety for a tripled cooldown and guaranteed severe landing incidents.</description>
+    <modVersion>1.0.0</modVersion>
+    <url>https://steamcommunity.com/sharedfiles/itemedittext/?id=3686379345</url>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+		    <packageId>Ludeon.RimWorld.Odyssey</packageId>
+		    <displayName>Odyssey</displayName>
+	    </li>
+    </modDependencies>
+</ModMetaData>
