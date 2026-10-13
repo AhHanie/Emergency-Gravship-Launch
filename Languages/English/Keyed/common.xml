@@ -7,6 +7,7 @@
   <EmergencyGravLaunch.CommandDesc>Launch the gravship immediately despite cooldown.</EmergencyGravLaunch.CommandDesc>
   <EmergencyGravLaunch.CommandWarning>This is an emergency launch. Two severe emergency landing outcomes are guaranteed.</EmergencyGravLaunch.CommandWarning>
   <EmergencyGravLaunch.ConfirmText>Launch {GRAVSHIP} immediately despite cooldown?\n\nThis is an emergency launch. Two severe emergency landing outcomes are guaranteed.</EmergencyGravLaunch.ConfirmText>
+  <EmergencyGravLaunch.InProgress>The gravship is already travelling or landing.</EmergencyGravLaunch.InProgress>
   <EmergencyGravLaunch.NotOnCooldown>The gravship is not on launch cooldown.</EmergencyGravLaunch.NotOnCooldown>
   <EmergencyGravLaunch.DisabledUntilNormalLaunch>Emergency launch is disabled until this gravship completes a normal launch.</EmergencyGravLaunch.DisabledUntilNormalLaunch>
   <EmergencyGravLaunch.OutcomeDoubleFuelExtra>Additional fuel burned after landing: {0}</EmergencyGravLaunch.OutcomeDoubleFuelExtra>

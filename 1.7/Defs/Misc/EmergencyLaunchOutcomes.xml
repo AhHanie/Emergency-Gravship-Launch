@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LandingOutcomeDef>
+    <defName>EGL_OverstressedGravEngine</defName>
+    <letterLabel>overstressed grav engine</letterLabel>
+    <letterText>While landing {GRAVSHIP}, {PILOT_nameDef} over-engaged the grav engine, leaving it dangerously overstressed. The grav engine will take far longer than normal to cool down. In the meantime, the gravship can't be launched.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <workerClass>GravshipEmergencyLaunch.Outcomes.LandingOutcomeWorker_TripleLaunchCooldown</workerClass>
+    <weight>0</weight>
+    <modExtensions>
+      <li Class="GravshipEmergencyLaunch.EmergencyLandingOutcomeExtension">
+        <emergencyWeight>1.0</emergencyWeight>
+      </li>
+    </modExtensions>
+  </LandingOutcomeDef>
+
+  <LandingOutcomeDef>
+    <defName>EGL_DoubleFuelConsumption</defName>
+    <letterLabel>Emergency fuel dump</letterLabel>
+    <letterText>{GRAVSHIP} bled fuel throughout the emergency descent. {PILOT} and {COPILOT} kept the gravship airborne, but the extra burn left the tanks far emptier than planned.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <workerClass>GravshipEmergencyLaunch.Outcomes.LandingOutcomeWorker_DoubleFuelConsumption</workerClass>
+    <weight>0</weight>
+    <modExtensions>
+      <li Class="GravshipEmergencyLaunch.EmergencyLandingOutcomeExtension">
+        <emergencyWeight>1.0</emergencyWeight>
+      </li>
+    </modExtensions>
+  </LandingOutcomeDef>
+
+  <LandingOutcomeDef>
+    <defName>EGL_SevereGravNausea</defName>                                                                                                                                                                       
+    <letterLabel>severe grav nausea</letterLabel>                                                                                                                                                                 
+    <letterText>The violent emergency descent of {GRAVSHIP} left everyone aboard reeling with severe grav nausea. Even after {PILOT_nameDef} brought the ship down, the sickness will linger for days.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <workerClass>GravshipEmergencyLaunch.Outcomes.LandingOutcomeWorker_SevereGravNausea</workerClass>
+    <weight>0</weight>
+    <modExtensions>
+      <li Class="GravshipEmergencyLaunch.EmergencyLandingOutcomeExtension">
+        <emergencyWeight>1.0</emergencyWeight>
+      </li>
+    </modExtensions>
+  </LandingOutcomeDef>
+
+  <LandingOutcomeDef>
+    <defName>EGL_StructuralHullDamage</defName>
+    <letterLabel>Hull damage on touchdown</letterLabel>
+    <letterText>{GRAVSHIP} struck atmosphere badly during the emergency launch sequence. Exterior sections were battered on arrival, leaving visible structural damage across the hull.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <workerClass>GravshipEmergencyLaunch.Outcomes.LandingOutcomeWorker_StructuralHullDamage</workerClass>
+    <weight>0</weight>
+    <modExtensions>
+      <li Class="GravshipEmergencyLaunch.EmergencyLandingOutcomeExtension">
+        <emergencyWeight>1.0</emergencyWeight>
+      </li>
+    </modExtensions>
+  </LandingOutcomeDef>
+
+  <LandingOutcomeDef>
+    <defName>EGL_PsychicShockwave</defName>
+    <letterLabel>Psychic shockwave on landing</letterLabel>
+    <letterText>The emergency descent of {GRAVSHIP} tore through the local psychic field. Sensitive minds near the landing site snapped into violent breaks while others across the region were left with lingering neuroquake echoes.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <workerClass>GravshipEmergencyLaunch.Outcomes.LandingOutcomeWorker_PsychicShockwave</workerClass>
+    <weight>0</weight>
+    <modExtensions>
+      <li Class="GravshipEmergencyLaunch.EmergencyLandingOutcomeExtension">
+        <emergencyWeight>0.85</emergencyWeight>
+      </li>
+    </modExtensions>
+  </LandingOutcomeDef>
+</Defs>

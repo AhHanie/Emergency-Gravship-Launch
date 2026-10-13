@@ -5,9 +5,10 @@
     <packageId>sk.emergencygravlaunch</packageId>
     <supportedVersions>
         <li>1.6</li>
+        <li>1.7</li>
     </supportedVersions>
     <description>Allows gravships to use an emergency launch during cooldown, trading safety for a tripled cooldown and guaranteed severe landing incidents.</description>
-    <modVersion>1.0.0</modVersion>
+    <modVersion>1.1.0</modVersion>
     <url>https://steamcommunity.com/sharedfiles/itemedittext/?id=3686379345</url>
     <modDependencies>
         <li>
